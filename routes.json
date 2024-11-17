@@ -1,0 +1,4 @@
+{
+  "/users/:id/projects": "/projects?userId=:id",
+  "/projects/:id/workers": "/workers?projectId=:id"
+}

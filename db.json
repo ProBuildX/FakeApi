@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1",
+      "name": "user1",
+      "password": "user1"
+    },
+    {
+      "id": 2,
+      "email": "user2",
+      "name": "user2",
+      "password": "user2"
+    },
+    {
+      "email": "user3",
+      "name": "user3",
+      "password": "user3",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Edificio",
+      "description": "edificio",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Casa",
+      "description": "casa",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Casa",
+      "description": "casa",
+      "userId": 2
+    },
+    {
+      "description": "restaurante",
+      "title": "restaurante",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "description": "almacen",
+      "title": "almacen",
+      "userId": 2,
+      "id": 5
+    }
+  ],
+  "workers": [
+    {
+      "id": 1,
+      "name": "Carlos",
+      "lastName": "García",
+      "role": "operador",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "name": "Pedro",
+      "lastName": "Lopez",
+      "role": "obrero",
+      "projectId": 1
+    }
+  ]
+}
