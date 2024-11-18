@@ -2,54 +2,46 @@
   "users": [
     {
       "id": 1,
-      "email": "user1",
+      "email": "",
       "name": "user1",
-      "password": "user1"
+      "password": ""
     },
     {
       "id": 2,
       "email": "user2",
       "name": "user2",
       "password": "user2"
-    },
-    {
-      "email": "user3",
-      "name": "user3",
-      "password": "user3",
-      "id": 3
     }
   ],
   "projects": [
     {
       "id": 1,
       "title": "Edificio",
-      "description": "edificio",
+      "description": "Edificio lorem ipsum",
+      "address": "San Isidro",
+      "date": "10/10/24",
+      "budget": "100000",
       "userId": 1
     },
     {
       "id": 2,
       "title": "Casa",
-      "description": "casa",
+      "description": "Casa lorem ipsum",
+      "address": "Surco",
+      "date": "11/11/24",
+      "budget": "50000",
       "userId": 1
     },
     {
       "id": 3,
-      "title": "Casa",
-      "description": "casa",
+      "title": "Oficina",
+      "description": "Oficin alorem ipsum",
+      "address": "San Borja",
+      "date": "12/12/24",
+      "budget": "20000",
       "userId": 2
-    },
-    {
-      "description": "restaurante",
-      "title": "restaurante",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "description": "almacen",
-      "title": "almacen",
-      "userId": 2,
-      "id": 5
     }
+
   ],
   "workers": [
     {
