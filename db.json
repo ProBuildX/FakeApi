@@ -16,11 +16,11 @@
   "projects": [
     {
       "id": 1,
-      "title": "Edificio",
-      "description": "Edificio lorem ipsum",
+      "title": "Almacen",
+      "description": "Almacen lorem ipsum",
       "address": "San Isidro",
       "date": "10/10/24",
-      "budget": "100000",
+      "budget": "40000",
       "userId": 1
     },
     {
@@ -35,27 +35,50 @@
     {
       "id": 3,
       "title": "Oficina",
-      "description": "Oficin alorem ipsum",
+      "description": "Oficina alorem ipsum",
       "address": "San Borja",
       "date": "12/12/24",
       "budget": "20000",
       "userId": 2
     }
-
   ],
   "workers": [
     {
       "id": 1,
-      "name": "Carlos",
-      "lastName": "García",
-      "role": "operador",
+      "name": "Ricardo",
+      "lastName": "Garcia",
+      "dni": "12345678",
+      "role": "Operator",
+      "salary": "5000",
       "projectId": 1
     },
     {
       "id": 2,
-      "name": "Pedro",
-      "lastName": "Lopez",
-      "role": "obrero",
+      "name": "Alfoso",
+      "lastName": "Moya",
+      "dni": "87654321",
+      "role": "Supervisor",
+      "salary": "12000",
+      "projectId": 1
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "name": "Bricks",
+      "description": "Bricks",
+      "amount": "1000",
+      "receptionDate": "11/11/24",
+      "totalCost": "2000",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "name": "Concrete",
+      "description": "Concrete",
+      "amount": "100L",
+      "receptionDate": "11/11/24",
+      "totalCost": "1500",
       "projectId": 1
     }
   ]
