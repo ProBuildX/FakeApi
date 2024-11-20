@@ -91,6 +91,7 @@
       "description": "Drill para operaciones de",
       "startDate": "11/11/24",
       "endDate": "11/12/24",
+      "totalCost": "2000",
       "projectId": 1
     },
     {
@@ -99,6 +100,7 @@
       "description": "Truck",
       "startDate": "11/11/24",
       "endDate": "11/12/24",
+      "totalCost": "2000",
       "projectId": 1
     }
   ],
