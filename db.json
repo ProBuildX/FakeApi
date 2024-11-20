@@ -81,5 +81,23 @@
       "totalCost": "1500",
       "projectId": 1
     }
+  ],
+  "machinery": [
+    {
+      "id": 1,
+      "name": "Drill",
+      "description": "Drill",
+      "startDate": "11/11/24",
+      "endDate": "11/12/24",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "name": "Truck",
+      "description": "Truck",
+      "startDate": "11/11/24",
+      "endDate": "11/12/24",
+      "projectId": 1
+    }
   ]
 }
