@@ -2,44 +2,77 @@
   "users": [
     {
       "id": 1,
-      "email": "",
-      "name": "user1",
-      "password": ""
+      "email": "carlos.fernandez@gmail.com",
+      "name": "Carlos Fernandez",
+      "password": "carlos123"
     },
     {
       "id": 2,
-      "email": "user2",
-      "name": "user2",
-      "password": "user2"
+      "email": "maria.lopez@gmail.com",
+      "name": "Maria Lopez",
+      "password": "maria456"
+    },
+    {
+      "id": 3,
+      "email": "andres.perez@gmail.com",
+      "name": "Andres Perez",
+      "password": "andres789"
+    },
+    {
+      "id": 4,
+      "email": "julia.gonzalez@gmail.com",
+      "name": "Julia Gonzalez",
+      "password": "julia321"
+    },
+    {
+      "id": 5,
+      "email": "ricardo.rojas@gmail.com",
+      "name": "Ricardo Rojas",
+      "password": "ricardo654"
+    },
+    {
+      "id": 6,
+      "email": "sofia.mendoza@gmail.com",
+      "name": "Sofia Mendoza",
+      "password": "sofia987"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Almacen de Articulos",
-      "description": "Almacen de perif nn nenienefebfj,",
-      "address": "100 javier prado, San Isidro",
-      "date": "10/10/24",
+      "title": "Almacén de Artículos",
+      "description": "Construcción de un almacén para guardar artículos diversos.",
+      "address": "Av. Javier Prado 100, San Isidro",
+      "date": "10/10/2024",
       "budget": "40000",
       "userId": 1
     },
     {
       "id": 2,
-      "title": "Casa",
-      "description": "Casa lorem ipsum",
-      "address": "Surco",
-      "date": "11/11/24",
+      "title": "Casa Residencial",
+      "description": "Construcción de una casa moderna en Surco.",
+      "address": "Calle Los Sauces, Surco",
+      "date": "05/10/2024",
       "budget": "50000",
-      "userId": 1
+      "userId": 2
     },
     {
       "id": 3,
-      "title": "Oficina",
-      "description": "Oficina alorem ipsum",
-      "address": "San Borja",
-      "date": "12/12/24",
+      "title": "Oficina Corporativa",
+      "description": "Remodelación de una oficina con enfoque en eficiencia energética.",
+      "address": "Av. Primavera 250, San Borja",
+      "date": "01/08/2024",
       "budget": "20000",
-      "userId": 2
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "Ampliación de Escuela",
+      "description": "Construcción de aulas y áreas comunes para una escuela.",
+      "address": "Av. La Marina 567, Magdalena",
+      "date": "10/07/2024",
+      "budget": "35000",
+      "userId": 4
     }
   ],
   "workers": [
@@ -48,90 +81,178 @@
       "name": "Ricardo",
       "lastName": "Garcia",
       "dni": "12345678",
-      "role": "Operator",
+      "role": "Operario",
       "salary": "5000",
       "projectId": 1,
       "teamId": 1
     },
     {
       "id": 2,
-      "name": "Alfoso",
+      "name": "Alfonso",
       "lastName": "Moya",
       "dni": "87654321",
       "role": "Supervisor",
       "salary": "12000",
       "projectId": 1,
       "teamId": 1
+    },
+    {
+      "id": 3,
+      "name": "Luisa",
+      "lastName": "Martinez",
+      "dni": "11223344",
+      "role": "Ingeniera Civil",
+      "salary": "15000",
+      "projectId": 2,
+      "teamId": 2
+    },
+    {
+      "id": 4,
+      "name": "Jorge",
+      "lastName": "Vargas",
+      "dni": "33445566",
+      "role": "Electricista",
+      "salary": "6000",
+      "projectId": 3,
+      "teamId": 3
+    },
+    {
+      "id": 5,
+      "name": "Sofía",
+      "lastName": "Reyes",
+      "dni": "55667788",
+      "role": "Albañil",
+      "salary": "4500",
+      "projectId": 4,
+      "teamId": 4
     }
   ],
   "materials": [
     {
       "id": 1,
-      "name": "Bricks",
-      "description": "Bricks ",
+      "name": "Ladrillos",
+      "description": "Ladrillos de arcilla estándar.",
       "amount": "1000",
-      "receptionDate": "11/11/24",
+      "receptionDate": "10/09/2024",
       "totalCost": "2000",
       "projectId": 1
     },
     {
       "id": 2,
-      "name": "Concrete",
-      "description": "Concrete",
-      "amount": "100L",
-      "receptionDate": "11/11/24",
+      "name": "Concreto",
+      "description": "Concreto premezclado.",
+      "amount": "100 L",
+      "receptionDate": "05/09/2024",
       "totalCost": "1500",
       "projectId": 1
+    },
+    {
+      "id": 3,
+      "name": "Acero",
+      "description": "Barras de acero para construcción.",
+      "amount": "500 kg",
+      "receptionDate": "15/08/2024",
+      "totalCost": "3000",
+      "projectId": 3
+    },
+    {
+      "id": 4,
+      "name": "Madera",
+      "description": "Vigas de madera tratada para estructuras.",
+      "amount": "300",
+      "receptionDate": "01/07/2024",
+      "totalCost": "5000",
+      "projectId": 4
     }
   ],
   "machinery": [
     {
       "id": 1,
-      "name": "Drill",
-      "description": "Drill para operaciones de",
-      "startDate": "11/11/24",
-      "endDate": "11/12/24",
-      "totalCost": "2000",
+      "name": "Taladro",
+      "description": "Taladro de alto rendimiento.",
+      "startDate": "10/09/2024",
+      "endDate": "20/09/2024",
       "projectId": 1
     },
     {
       "id": 2,
-      "name": "Truck",
-      "description": "Truck",
-      "startDate": "11/11/24",
-      "endDate": "11/12/24",
-      "totalCost": "2000",
+      "name": "Camión",
+      "description": "Camión para transporte de materiales.",
+      "startDate": "01/09/2024",
+      "endDate": "15/09/2024",
       "projectId": 1
+    },
+    {
+      "id": 3,
+      "name": "Grúa",
+      "description": "Grúa para levantar materiales pesados.",
+      "startDate": "15/07/2024",
+      "endDate": "30/07/2024",
+      "projectId": 4
+    },
+    {
+      "id": 4,
+      "name": "Compactadora",
+      "description": "Compactadora para trabajos de terreno.",
+      "startDate": "10/07/2024",
+      "endDate": "25/07/2024",
+      "projectId": 4
     }
   ],
   "teams": [
     {
       "id": 1,
-      "name": "Cleaning",
+      "name": "Limpieza",
       "projectId": 1
     },
     {
       "id": 2,
-      "name": "Supervision",
-      "projectId": 1
+      "name": "Supervisión",
+      "projectId": 2
+    },
+    {
+      "id": 3,
+      "name": "Electricidad",
+      "projectId": 3
+    },
+    {
+      "id": 4,
+      "name": "Construcción Básica",
+      "projectId": 4
     }
   ],
   "tasks": [
     {
       "id": 1,
-      "title": "Supervision",
-      "description": "Supervision lorem ipsum",
-      "startDate": "20/10/24",
+      "title": "Supervisión Inicial",
+      "description": "Inspección preliminar del sitio de construcción.",
+      "startDate": "01/09/2024",
       "projectId": 1,
       "teamId": 1
     },
     {
       "id": 2,
-      "title": "Cleaning",
-      "description": "Cleaning lorem ipsum",
-      "startDate": "10/10/24",
+      "title": "Limpieza del Terreno",
+      "description": "Retiro de escombros y nivelación del terreno.",
+      "startDate": "15/08/2024",
       "projectId": 1,
       "teamId": 1
+    },
+    {
+      "id": 3,
+      "title": "Instalación Eléctrica",
+      "description": "Cableado y paneles eléctricos para la oficina.",
+      "startDate": "01/08/2024",
+      "projectId": 3,
+      "teamId": 3
+    },
+    {
+      "id": 4,
+      "title": "Montaje de Estructuras",
+      "description": "Levantamiento de estructuras metálicas.",
+      "startDate": "15/07/2024",
+      "projectId": 4,
+      "teamId": 4
     }
   ]
 }
