@@ -11,30 +11,6 @@
       "email": "maria.lopez@gmail.com",
       "name": "Maria Lopez",
       "password": "maria456"
-    },
-    {
-      "id": 3,
-      "email": "andres.perez@gmail.com",
-      "name": "Andres Perez",
-      "password": "andres789"
-    },
-    {
-      "id": 4,
-      "email": "julia.gonzalez@gmail.com",
-      "name": "Julia Gonzalez",
-      "password": "julia321"
-    },
-    {
-      "id": 5,
-      "email": "ricardo.rojas@gmail.com",
-      "name": "Ricardo Rojas",
-      "password": "ricardo654"
-    },
-    {
-      "id": 6,
-      "email": "sofia.mendoza@gmail.com",
-      "name": "Sofia Mendoza",
-      "password": "sofia987"
     }
   ],
   "projects": [
@@ -54,7 +30,7 @@
       "address": "Calle Los Sauces, Surco",
       "date": "05/10/2024",
       "budget": "50000",
-      "userId": 2
+      "userId": 1
     },
     {
       "id": 3,
@@ -63,16 +39,7 @@
       "address": "Av. Primavera 250, San Borja",
       "date": "01/08/2024",
       "budget": "20000",
-      "userId": 3
-    },
-    {
-      "id": 4,
-      "title": "Ampliación de Escuela",
-      "description": "Construcción de aulas y áreas comunes para una escuela.",
-      "address": "Av. La Marina 567, Magdalena",
-      "date": "10/07/2024",
-      "budget": "35000",
-      "userId": 4
+      "userId": 2
     }
   ],
   "workers": [
@@ -103,7 +70,7 @@
       "dni": "11223344",
       "role": "Ingeniera Civil",
       "salary": "15000",
-      "projectId": 2,
+      "projectId": 1,
       "teamId": 2
     },
     {
@@ -113,8 +80,8 @@
       "dni": "33445566",
       "role": "Electricista",
       "salary": "6000",
-      "projectId": 3,
-      "teamId": 3
+      "projectId": 1,
+      "teamId": 2
     },
     {
       "id": 5,
@@ -123,8 +90,28 @@
       "dni": "55667788",
       "role": "Albañil",
       "salary": "4500",
-      "projectId": 4,
+      "projectId": 1,
+      "teamId": 3
+    },
+    {
+      "id": 6,
+      "name": "Sandra",
+      "lastName": "Mendoza",
+      "dni": "98765432",
+      "role": "Supervisora",
+      "salary": "9000",
+      "projectId": 2,
       "teamId": 4
+    },
+    {
+      "id": 7,
+      "name": "Diego",
+      "lastName": "Ortega",
+      "dni": "65432198",
+      "role": "Albañil",
+      "salary": "5000",
+      "projectId": 3,
+      "teamId": 5
     }
   ],
   "materials": [
@@ -153,7 +140,7 @@
       "amount": "500 kg",
       "receptionDate": "15/08/2024",
       "totalCost": "3000",
-      "projectId": 3
+      "projectId": 1
     },
     {
       "id": 4,
@@ -162,7 +149,16 @@
       "amount": "300",
       "receptionDate": "01/07/2024",
       "totalCost": "5000",
-      "projectId": 4
+      "projectId": 1
+    },
+    {
+      "id": 5,
+      "name": "Tejas",
+      "description": "Tejas cerámicas para techos.",
+      "amount": "200",
+      "receptionDate": "01/08/2024",
+      "totalCost": "1800",
+      "projectId": 2
     }
   ],
   "machinery": [
@@ -188,37 +184,34 @@
       "description": "Grúa para levantar materiales pesados.",
       "startDate": "15/07/2024",
       "endDate": "30/07/2024",
-      "projectId": 4
-    },
-    {
-      "id": 4,
-      "name": "Compactadora",
-      "description": "Compactadora para trabajos de terreno.",
-      "startDate": "10/07/2024",
-      "endDate": "25/07/2024",
-      "projectId": 4
+      "projectId": 1
     }
   ],
   "teams": [
     {
       "id": 1,
-      "name": "Limpieza",
+      "name": "Construcción Principal",
       "projectId": 1
     },
     {
       "id": 2,
+      "name": "Electricidad y Acabados",
+      "projectId": 1
+    },
+    {
+      "id": 3,
+      "name": "Revisión Final",
+      "projectId": 1
+    },
+    {
+      "id": 4,
       "name": "Supervisión",
       "projectId": 2
     },
     {
-      "id": 3,
-      "name": "Electricidad",
+      "id": 5,
+      "name": "Acabados",
       "projectId": 3
-    },
-    {
-      "id": 4,
-      "name": "Construcción Básica",
-      "projectId": 4
     }
   ],
   "tasks": [
@@ -241,18 +234,18 @@
     {
       "id": 3,
       "title": "Instalación Eléctrica",
-      "description": "Cableado y paneles eléctricos para la oficina.",
+      "description": "Cableado y paneles eléctricos para el almacén.",
       "startDate": "01/08/2024",
-      "projectId": 3,
-      "teamId": 3
+      "projectId": 1,
+      "teamId": 2
     },
     {
       "id": 4,
-      "title": "Montaje de Estructuras",
-      "description": "Levantamiento de estructuras metálicas.",
-      "startDate": "15/07/2024",
-      "projectId": 4,
-      "teamId": 4
+      "title": "Pintura Exterior",
+      "description": "Pintura en las paredes exteriores del almacén.",
+      "startDate": "10/07/2024",
+      "projectId": 1,
+      "teamId": 3
     }
   ]
 }
