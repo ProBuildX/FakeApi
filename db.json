@@ -50,7 +50,8 @@
       "dni": "12345678",
       "role": "Operator",
       "salary": "5000",
-      "projectId": 1
+      "projectId": 1,
+      "teamId": 1
     },
     {
       "id": 2,
@@ -59,7 +60,8 @@
       "dni": "87654321",
       "role": "Supervisor",
       "salary": "12000",
-      "projectId": 1
+      "projectId": 1,
+      "teamId": 1
     }
   ],
   "materials": [
@@ -110,6 +112,24 @@
       "id": 2,
       "name": "Supervision",
       "projectId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Supervision",
+      "description": "Supervision lorem ipsum",
+      "startDate": "20/10/24",
+      "projectId": 1,
+      "teamId": 1
+    },
+    {
+      "id": 1,
+      "title": "Cleaning",
+      "description": "Cleaning lorem ipsum",
+      "startDate": "10/10/24",
+      "projectId": 1,
+      "teamId": 1
     }
   ]
 }

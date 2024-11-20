@@ -1,6 +1,7 @@
 {
   "/users/:id/projects": "/projects?userId=:id",
   "/projects/:id/workers": "/workers?projectId=:id",
+  "/teams/:id/workers": "/workers?teamId=:id",
   "/projects/:id/teams": "/teams?projectId=:id",
   "/projects/:id/materials": "/materials?projectId=:id",
   "/projects/:id/machinery": "/machinery?projectId=:id",
