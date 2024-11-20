@@ -16,9 +16,9 @@
   "projects": [
     {
       "id": 1,
-      "title": "Almacen",
-      "description": "Almacen lorem ipsum",
-      "address": "San Isidro",
+      "title": "Almacen de Articulos",
+      "description": "Almacen de perif nn nenienefebfj,",
+      "address": "100 javier prado, San Isidro",
       "date": "10/10/24",
       "budget": "40000",
       "userId": 1
@@ -68,7 +68,7 @@
     {
       "id": 1,
       "name": "Bricks",
-      "description": "Bricks",
+      "description": "Bricks ",
       "amount": "1000",
       "receptionDate": "11/11/24",
       "totalCost": "2000",
@@ -88,7 +88,7 @@
     {
       "id": 1,
       "name": "Drill",
-      "description": "Drill",
+      "description": "Drill para operaciones de",
       "startDate": "11/11/24",
       "endDate": "11/12/24",
       "projectId": 1
