@@ -99,5 +99,17 @@
       "endDate": "11/12/24",
       "projectId": 1
     }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Cleaning",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "name": "Supervision",
+      "projectId": 1
+    }
   ]
 }
